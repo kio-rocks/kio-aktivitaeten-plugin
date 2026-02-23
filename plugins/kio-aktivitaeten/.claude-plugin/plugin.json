@@ -1,6 +1,6 @@
 {
   "name": "KIO-Aktivitaeten",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Erfasse Team-Aktivitäten, analysiere Zeitverteilung und Energie, und entwickle Schritt für Schritt konkrete Automatisierungen. Von der ersten Inventur bis zum fertigen Baustein.",
   "author": { "name": "kio.rocks" }
 }

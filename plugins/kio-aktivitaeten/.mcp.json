@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "google-workspace": {
-      "command": "npx",
-      "args": ["-y", "@anthropic/google-workspace-mcp"]
-    }
-  }
-}

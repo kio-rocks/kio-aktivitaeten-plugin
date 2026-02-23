@@ -1,6 +1,6 @@
 # KIO Aktivitäten-Plugin
 
-Ein Cowork-Plugin für Claude Desktop, das die komplette Aktivitäten-Journey begleitet: Erfassen, Analysieren, Automatisierungen vorschlagen, konkrete Bausteine generieren. Standalone ohne MCP-Server sofort einsatzbereit — mit angeschlossenen Tools (Google Workspace, CRM) deutlich mächtiger.
+Ein Cowork-Plugin für Claude Desktop, das die komplette Aktivitäten-Journey begleitet: Erfassen, Analysieren, Automatisierungen vorschlagen, konkrete Bausteine generieren. Standalone sofort einsatzbereit — mit Cowork-Connectors (Gmail, Calendar, CRM) deutlich mächtiger.
 
 ## Überblick
 
@@ -47,16 +47,14 @@ Inventur → Analyse → Vorschläge → Bausteine
 
 Öffne den `kio-aktivitaeten` Ordner als Claude Desktop Projekt.
 
-### Schritt 2 (Optional): MCP-Server verbinden
+### Schritt 2 (Optional): Cowork-Connectors verbinden
 
-Für die Supercharged-Funktionen kannst du Google Workspace verbinden:
+Für die Supercharged-Funktionen verbinde deine Tools über die Cowork-Plattform. Empfohlener Start:
 
-```bash
-# Voraussetzung: Node.js installiert
-npx -y @anthropic/google-workspace-mcp
-```
+1. **Gmail** — E-Mail-Aktivitäten erkennen und analysieren
+2. **Calendar** — Termin-basierte Aktivitäten erfassen
 
-Oder trage deine eigenen MCP-Server in `.mcp.json` ein. Alle verfügbaren Konnektoren und Platzhalter sind in [CONNECTORS.md](CONNECTORS.md) dokumentiert.
+Weitere Connectors (Sheets, CRM, Chat) kannst du jederzeit hinzufügen. Alle verfügbaren Kategorien und Platzhalter sind in [CONNECTORS.md](CONNECTORS.md) dokumentiert.
 
 ### Schritt 3: Profil anlegen
 
@@ -124,15 +122,17 @@ Jedes Command und jeder Skill funktioniert ohne MCP-Verbindungen:
 | Bausteine erstellen | Beschreibung + Anleitung | Code-Generierung wenn passender MCP verfügbar |
 | Fortschritt tracken | Lokale JSON-Dateien | `~~project-tracker` (Sync mit Aufgaben-Tool) |
 
-## MCP-Integrationen
+## Cowork-Connectors
 
-Verbinde deine Tools für bessere Ergebnisse:
+Verbinde deine Tools über die Cowork-Plattform für bessere Ergebnisse:
 
 | Kategorie | Beispiele | Was es ermöglicht |
 |-----------|-----------|-------------------|
-| **Google Workspace** | Gmail, Calendar, Sheets, Drive, Docs | Aktivitäten aus Kalender lesen, Analyse in Sheets speichern |
+| **Email** | Gmail, Outlook | E-Mail-Aktivitäten erkennen, Kommunikations-Patterns analysieren |
+| **Calendar** | Google Calendar, Outlook Calendar | Termin-basierte Aktivitäten erfassen, Zeitverteilung analysieren |
+| **Sheets** | Google Sheets, Excel | Analyse in Tabellen speichern, CSV-Import/Export |
 | **CRM** | HubSpot, Pipedrive, Salesforce | Kundenbezogene Aktivitäten erkennen |
 | **Project Tracker** | Linear, Asana, Jira | Fortschritt synchronisieren |
 | **Chat** | Slack, Teams | Team-Aktivitäten aus Gesprächen ableiten |
 
-Alle Konnektoren und `~~category` Platzhalter sind in [CONNECTORS.md](CONNECTORS.md) dokumentiert.
+Alle Connector-Kategorien und `~~category` Platzhalter sind in [CONNECTORS.md](CONNECTORS.md) dokumentiert.
