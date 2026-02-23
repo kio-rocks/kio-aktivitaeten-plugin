@@ -1,11 +1,11 @@
 {
-  "name": "kio-aktivitaeten",
+  "name": "kio-rocks",
   "owner": {
     "name": "KIO rocks",
     "email": "hey@kio.rocks"
   },
   "metadata": {
-    "description": "KIO Aktivitäten-Plugins für Team-Automatisierung",
+    "description": "KIO Plugins für Team-Automatisierung",
     "version": "1.0.0"
   },
   "plugins": [
