@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "KIO Plugins für Team-Automatisierung",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "plugins": [
     {
-      "name": "KIO-Aktivitäten",
+      "name": "KIO-Aktivitaeten",
       "source": "./plugins/kio-aktivitaeten",
       "description": "Erfasse Team-Aktivitäten, analysiere Zeitverteilung und Energie, und entwickle Schritt für Schritt konkrete Automatisierungen. Von der ersten Inventur bis zum fertigen Baustein.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "kio.rocks"
       },
