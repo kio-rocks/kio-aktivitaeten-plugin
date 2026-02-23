@@ -1,0 +1,26 @@
+{
+  "name": "kio-aktivitaeten",
+  "owner": {
+    "name": "KIO rocks",
+    "email": "hey@kio.rocks"
+  },
+  "metadata": {
+    "description": "KIO Aktivitäten-Plugins für Team-Automatisierung",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "kio-aktivitaeten",
+      "source": "./plugins/kio-aktivitaeten",
+      "description": "Erfasse Team-Aktivitäten, analysiere Zeitverteilung und Energie, und entwickle Schritt für Schritt konkrete Automatisierungen. Von der ersten Inventur bis zum fertigen Baustein.",
+      "version": "1.0.0",
+      "author": {
+        "name": "KIO rocks"
+      },
+      "homepage": "https://kio.rocks",
+      "repository": "https://github.com/kio-rocks/kio-aktivitaeten-plugin",
+      "keywords": ["aktivitaeten", "automatisierung", "inventur", "prozesse"],
+      "category": "productivity"
+    }
+  ]
+}
